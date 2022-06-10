@@ -30,7 +30,7 @@
     <div id="reservation">
         <h1>Rezerwacja</h1>
         <div id="reservation-form">
-            <form action="" method="POST">
+            <form action="thanks.php" method="POST">
                 <?php
                 $conn = mysqli_connect("localhost", "root", "", "hotel");
                 $list = json_decode($_GET["number"]);
